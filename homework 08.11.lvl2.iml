@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+public class Main {
+    public static void main(String[] args) {
+        int g = 965;
+        System.out.println("Число " + g + " -> 9, 6, 5");
+int a, b, c;
+a = g/100;
+b = g/10%10;
+c = g%10;
+        System.out.println( "Число " + g + " -> ");
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println("Число " + g + " -> " + a + " " + b + " " + c + " ");
+
+        int q = 8756;
+        int w, e, r, t;
+        w = q/1000;
+        e = q/100%10;
+        r = q/10%10;
+        t = q%10;
+        System.out.println("Число " + q + " -> " + w + " " + e + " " + r + " " + t);
+        System.out.println(w);
+        System.out.println(e);
+        System.out.println(r);
+        System.out.println(t);
+    }
+}
