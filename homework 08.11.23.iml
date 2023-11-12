@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-  </component>
-</module>
+public class Main {
+    public static void main(String[] args) {
+
+        char g = 'G';
+        System.out.println( + g);
+        int i = 89;
+        System.out.println(i);
+        byte r = 4;
+        System.out.println(r);
+        short e = 56;
+        System.out.println(e);
+        float u = 4.7333436f;
+        System.out.println(u) ;
+        double t = 4.355453532;
+        System.out.println(t);
+        long s = 12121;
+        System.out.println(s);
+        }
+}
